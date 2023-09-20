@@ -1,0 +1,43 @@
+{
+  "author": "Julius Lipp <https://juliuslipp.com>",
+  "license": "MIT",
+  "name": "tailwindcss-shadow",
+  "version": "0.0.1",
+  "description": "A Tailwind CSS plugin to add shadow utilities.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "module": "index.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc --outDir build",
+    "format": "prettier --write '**'",
+    "format:check": "prettier --check '**'"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "postcss",
+    "plugin",
+    "shadow",
+    "shadows",
+    "shadow utilities",
+    "box-shadow",
+    "drop-shadow"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@types/tailwindcss": "^3.1.0",
+    "bun-types": "latest",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  }
+}
